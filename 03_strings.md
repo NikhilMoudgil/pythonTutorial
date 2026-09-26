@@ -52,3 +52,40 @@ Fantastic Two
 'Formula One'
 >>> print(F1.find("One"))
 8 
+* Count() method 
+>>> F1 = "Formula One One One One"
+>>> print(F1.count("One"))
+4
+* format() method
+>>> CarType = "Sedan" 
+>>> quantity =2
+>>> Booking = "I booked {} sedans "
+>>> Booking
+'I booked {} sedans '
+>>> print(Booking.format(quantity))
+I booked 2 sedans
+# List To string -> join()method
+>> car_variety =["Sedan","SubFourMeter", "CompactSuv"]
+>>> car_variety                                        
+['Sedan', 'SubFourMeter', 'CompactSuv']
+>>> print("".join(car_variety))
+SedanSubFourMeterCompactSuv
+
+>>> print("_".join(car_variety))
+Sedan_SubFourMeter_CompactSuv
+
+* len()-> length method
+# using quotes inside quotes
+>>> car ="He said, \"Sedans and Sports cars are awesome\" "
+>>> car
+'He said, "Sedans and Sports cars are awesome" '
+
+# Row String 
+>>> car =r"Sedan\Car" 
+>>> car
+'Sedan\\Car'
+>>> print(car)
+Sedan\\Car
+# Finding Somethings 
+>>> print("Sports"in car)
+True

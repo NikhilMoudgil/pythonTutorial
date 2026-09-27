@@ -71,3 +71,13 @@ I have Coupe Car
 ['Seedan', 'MPV', 'Coupe', 'SUV', 'CrossOver', 'CompactSUV']
 >>> carVarieties
 ['Seedan', 'MPV', 'Coupe', 'SUV', 'CrossOver']
+
+#    List Comprehension
+* range()->
+>>> range(10)                            
+range(0, 10)
+// last number of range is excluded 
+// loop inside list 
+>>> squared_nums=[x**2 for x in range (10)]
+>>> squared_nums                           
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]

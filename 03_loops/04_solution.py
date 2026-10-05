@@ -1,4 +1,5 @@
-str = "Racecar".capitalize()
-for i in range(len(str), 0, -1):
-    print(str[i - 1], end=" ")
-    
+str = "Racecar"
+reverse_str =""
+for char in str:
+    reverse_str = char + reverse_str
+print(reverse_str)
